@@ -12,7 +12,7 @@ cmap = matplotlib.cm.get_cmap('seismic')
 #rgba = cmap(0.5)
 idx = np.linspace(0,1,256)
 
-print str(cmap(0)[3])
+print(str(cmap(0)[3]))
 
 iCount = 0
 for ii in idx:
